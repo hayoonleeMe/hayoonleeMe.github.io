@@ -76,13 +76,11 @@ int main()
 
 ### 이미지 삽입 
 
-![달 사진](C:\Users\LeeHaYoon\Desktop\hayoonleeMe.github.io\assets\moon.jpg "달 사진"){: .align-center}
+![달 사진](https://github.com/hayoonleeMe/hayoonleeMe.github.io/blob/main/assets/moon.jpg "달 사진"){: .align-center}
 
+<img src="C:\Users\LeeHaYoon\Desktop\hayoonleeMe.github.io\assets\images\moon.jpg" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="Moon"></img><br/>
 
-
-<img src="C:\Users\LeeHaYoon\Desktop\hayoonleeMe.github.io\assets\moon.jpg" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="Moon"></img><br/>
-
-<img src="C:\Users\LeeHaYoon\Desktop\hayoonleeMe.github.io\assets\moon.jpg" width="40%" height="30%" title="%(비율) 크기 설정" alt="Moon"></img><br/>
+<img src="C:\Users\LeeHaYoon\Desktop\hayoonleeMe.github.io\assets\images\moon.jpg" width="40%" height="30%" title="%(비율) 크기 설정" alt="Moon"></img><br/>
 
 
 
