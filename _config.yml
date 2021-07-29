@@ -13,7 +13,7 @@
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
 #minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-minimal_mistakes_skin    : "aqua" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "sunrise" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -104,8 +104,8 @@ analytics:
 author:
   name             : "hayoonlee"
   avatar           : "/assets/images/moon.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "완벽하지 않은 완벽주의자"
-  location         : "South Korea"
+  bio              : "완벽하지 않지만 완벽하고 싶다.\n\n컴퓨터공학과 대학생"
+  location         : "Republic of Korea"
   email            : htdobad@gmail.com
   links:
     - label: "Email"

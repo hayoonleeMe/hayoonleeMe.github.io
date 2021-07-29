@@ -1,12 +1,18 @@
 ---
+
 title: "github.io 블로그 시작하기"
 excerpt: "GitHub Blog 서비스인 github.io 블로그 시작하기로 했다."
 categories:
   - Blog
 tags:
   - Blog
-last_modified_at: 
+last_modified_at: 2021-07-29 10:15:00 ~ 10:15:00
+toc: true
+toc_sticky: true
+toc_label: "목차👀"
 ---
+
+`해당 포스트는 포스트 작성 연습과 Markdown의 문법을 포함합니다. 추후 변경예정.`{: .notice--success}
 
 GitHub Blog 서비스인 github.io 블로그 시작하기로 했다.
 
@@ -43,17 +49,33 @@ _single underscores_
 
 __double underscores__
 
+***triple asterisks***
+
+___triple underscores___
+
+~~cancel line~~
 
 
-## This is C++ code
+
+### 코드블록
 
 ```cpp
 int main()
 {
-    std::cout << "Hello World" <<std::endl;
+    std::cout << "Hello World" << std::endl;
     
     return 0;
 }
+```
+
+
+
+### BlockQuote
+
+```markdown
+> 수
+>>평
+>>>선
 ```
 
 > 수
@@ -62,25 +84,146 @@ int main()
 > >
 > > > 선
 
+
+
+### 수평선
+
+```markdown
 ***
+****
+---
+----
+```
 
 ***
+
+****
+
+---
+
+----
+
+
 
 ### 링크 추가
+
+```markdown
+[Google 링크](https://google.com)
+
+<https://google.com>
+```
+
+
 
 [Google 링크](https://google.com)
 
 <https://google.com>
 
+ 
+
+### 이미지 삽입
+
+#### 이미지 소스 URL만 입력
+
+```markdown
+![](https://github.com/hayoonleeMe/hayoonleeMe.github.io/blob/main/assets/images/moon.jpg?raw=true)
+```
+
+![](https://github.com/hayoonleeMe/hayoonleeMe.github.io/blob/main/assets/images/moon.jpg?raw=true)
 
 
-### 이미지 삽입 
 
-![달 사진](https://github.com/hayoonleeMe/hayoonleeMe.github.io/blob/main/assets/images/moon.jpg?raw=true "달 사진"){.align=center}
+#### 대체 텍스트(alt)를 입력
 
-<img src="C:\Users\LeeHaYoon\Desktop\hayoonleeMe.github.io\assets\images\moon.jpg" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="Moon"></img><br/>
+```markdown
+![달 사진](https://github.com/hayoonleeMe/hayoonleeMe.github.io/blob/main/assets/images/moon.jpg?raw=true)
+```
 
-<img src="C:\Users\LeeHaYoon\Desktop\hayoonleeMe.github.io\assets\images\moon.jpg" width="40%" height="30%" title="%(비율) 크기 설정" alt="Moon"></img><br/>
+
+
+![달 사진](https://github.com/hayoonleeMe/hayoonleeMe.github.io/blob/main/assets/images/moon.jpg?raw=true)
+
+
+
+#### 이미지(title)을 입력
+
+```markdown
+![달 사진](https://github.com/hayoonleeMe/hayoonleeMe.github.io/blob/main/assets/images/moon.jpg?raw=true "달 사진")
+```
+
+
+
+![달 사진](https://github.com/hayoonleeMe/hayoonleeMe.github.io/blob/main/assets/images/moon.jpg?raw=true "달 사진")
+
+
+
+#### 이미지를 인라인으로 삽입하기 (보완 필요)
+
+달 사진은 ![달 사진](https://github.com/hayoonleeMe/hayoonleeMe.github.io/blob/main/assets/images/moon.jpg?raw=true#style=max-width:200px;vertical-align:middle; "달 사진") 
+
+입니다.
+
+
+
+#### 참조형식으로 이미지 삽입
+
+```markdown
+![달 사진][참조이미지1]
+[참조이미지1]: https://github.com/hayoonleeMe/hayoonleeMe.github.io/blob/main/assets/images/moon.jpg?raw=true 
+```
+
+
+
+![달 사진][참조이미지1]
+
+[참조이미지1]: https://github.com/hayoonleeMe/hayoonleeMe.github.io/blob/main/assets/images/moon.jpg?raw=true
+
+
+
+### 이미지 크기 조정
+
+#### 픽셀(px) 단위의 크기 조정
+
+```markdown
+![달 사진](https://github.com/hayoonleeMe/hayoonleeMe.github.io/blob/main/
+        assets/images/moon.jpg?raw=true "달 사진"){: width="100px" height="100"}
+```
+
+
+
+![달 사진](https://github.com/hayoonleeMe/hayoonleeMe.github.io/blob/main/assets/images/moon.jpg?raw=true "달 사진"){: width="100px" height="100"}
+
+
+
+#### 비율(%) 단위의 크기 조정
+
+```markdown
+![달 사진](https://github.com/hayoonleeMe/hayoonleeMe.github.io/blob/main/
+        assets/images/moon.jpg?raw=true "달 사진"){: width="50%" height="50%"}
+```
+
+
+
+![달 사진](https://github.com/hayoonleeMe/hayoonleeMe.github.io/blob/main/assets/images/moon.jpg?raw=true "달 사진"){: width="50%" height="50%"}
+
+
+
+### 이미지 정렬
+
+`{: .align-center}` : **가운데** 정렬   
+`{: .align-left}` : **왼쪽** 정렬   
+`{: .align-right}` : **오른쪽** 정렬   
+
+
+
+```markdown
+![달 사진](https://github.com/hayoonleeMe/hayoonleeMe.github.io/blob/main/
+        assets/images/moon.jpg?raw=true "달 사진"){: width="50%" height="50%" .align-center}
+```
+
+![달 사진](https://github.com/hayoonleeMe/hayoonleeMe.github.io/blob/main/assets/images/moon.jpg?raw=true "달 사진"){: width="50%" height="50%" .align-center}
+
+   
 
 
 
