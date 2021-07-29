@@ -17,7 +17,7 @@ minimal_mistakes_skin    : "aqua" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "완벽을 위한 공부 블로그"
+title                    : "공부 블로그 : Take a Look"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "hayoonlee"
@@ -106,7 +106,7 @@ author:
   avatar           : "/assets/moon.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "완벽하지 않은 완벽주의자"
   location         : "South Korea"
-  email            : 
+  email            : htdobad@gmail.com
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
