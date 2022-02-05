@@ -104,7 +104,7 @@ analytics:
 author:
   name             : "hayoonlee"
   avatar           : "/assets/images/moon.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "완벽하지 않지만 완벽하고 싶다.\n\n컴퓨터공학과 대학생"
+  bio              : "공부하는 컴퓨터공학과 대학생"
   location         : "Republic of Korea"
   email            : htdobad@gmail.com
   links:
@@ -275,6 +275,31 @@ compress_html:
     envs: development
 
 
+# # Defaults
+# defaults:
+#   # _posts
+#   - scope:
+#       path: ""
+#       type: posts
+#     values:
+#       layout: single
+#       author_profile: true
+#       read_time: true
+#       comments: # true
+#       share: true
+#       related: true
+#  # _pages
+#   - scope:
+#       path: ""
+#       type: pages
+#     values:
+#       layout: single
+#       author_profile: true
+#       read_time: false
+#       comments: false
+#       share: true
+#       related: false
+
 # Defaults
 defaults:
   # _posts
@@ -285,17 +310,8 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
- # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-      read_time: false
-      comments: false
-      share: true
-      related: false
+      mathjax: true
+      sidebar_main: true
